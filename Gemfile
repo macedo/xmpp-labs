@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 
 # Assets
+gem 'rails-assets-bootstrap'
 gem 'rails-assets-jquery'
 gem 'rails-assets-underscore'
 gem 'rails-assets-strophejs'
