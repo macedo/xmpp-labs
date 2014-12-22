@@ -1,0 +1,7 @@
+---
+# Setup: set according to your application needs
+
+# config timezone
+time_zone: 'America/Brasilia'
+
+fqdn: '10.203.175.40'
