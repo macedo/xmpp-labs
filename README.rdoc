@@ -1,3 +1,5 @@
+{<img src="https://codeclimate.com/github/macedo/xmpp-labs/badges/gpa.svg" />}[https://codeclimate.com/github/macedo/xmpp-labs]
+
 == README
 
 This README would normally document whatever steps are necessary to get the
