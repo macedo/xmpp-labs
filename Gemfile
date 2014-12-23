@@ -18,6 +18,7 @@ gem 'xmpp4r'
 gem 'rails-assets-backbone'
 gem 'rails-assets-bootstrap'
 gem 'rails-assets-jquery'
+gem 'rails-assets-modulejs'
 gem 'rails-assets-strophejs'
 gem 'rails-assets-underscore'
 
