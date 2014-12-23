@@ -63,6 +63,8 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rack (1.5.2)
+    rack-protection (1.5.3)
+      rack
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.8)
@@ -106,6 +108,10 @@ GEM
     simple_form (3.1.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
     slop (3.6.0)
     spring (1.2.0)
     sprockets (2.12.3)
@@ -147,6 +153,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sidekiq
   simple_form
+  sinatra
   spring
   sqlite3
   uglifier (>= 1.3.0)

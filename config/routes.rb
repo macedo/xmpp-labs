@@ -1,4 +1,9 @@
+require 'sidekiq/web'
+
 Rails.application.routes.draw do
   devise_for :users
-   root 'lobby#index'
+
+  mount Sidekiq::Web => 'sidekiq'
+
+  root 'lobby#index'
 end

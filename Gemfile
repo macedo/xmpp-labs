@@ -11,6 +11,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'sidekiq'
 gem 'simple_form'
+gem 'sinatra'
 gem 'xmpp4r'
 
 # Assets
