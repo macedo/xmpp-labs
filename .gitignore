@@ -18,3 +18,5 @@
 /vendor/ruby
 
 .vagrant
+
+dump.rdb

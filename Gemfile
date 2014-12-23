@@ -21,5 +21,6 @@ gem 'rails-assets-underscore'
 gem 'rails-assets-strophejs'
 
 group :development do
+  gem 'foreman'
   gem 'pry'
 end
