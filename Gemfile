@@ -8,6 +8,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 
+gem 'devise'
+
 # Assets
 gem 'rails-assets-bootstrap'
 gem 'rails-assets-jquery'
