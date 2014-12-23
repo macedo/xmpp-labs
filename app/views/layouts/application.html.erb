@@ -34,11 +34,10 @@
           </ul>
         </div>
       </div>
+    </nav>
+    <div class="container">
+      <%= yield %>
     </div>
-  </nav>
-  <div class="container">
-    <%= yield %>
-  </div>
-  <%= javascript_include_tag "application" %>
-</body>
+    <%= javascript_include_tag "application" %>
+  </body>
 </html>
