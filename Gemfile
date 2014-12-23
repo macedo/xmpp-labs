@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 
 gem 'devise'
+gem 'xmpp4r'
 
 # Assets
 gem 'rails-assets-bootstrap'
