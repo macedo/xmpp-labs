@@ -15,10 +15,11 @@ gem 'sinatra'
 gem 'xmpp4r'
 
 # Assets
+gem 'rails-assets-backbone'
 gem 'rails-assets-bootstrap'
 gem 'rails-assets-jquery'
-gem 'rails-assets-underscore'
 gem 'rails-assets-strophejs'
+gem 'rails-assets-underscore'
 
 group :development do
   gem 'foreman'
