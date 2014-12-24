@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 
 gem 'devise'
+gem 'ruby_bosh', github: 'aalhamad/ruby_bosh', branch: 'master'
 gem 'sidekiq'
 gem 'simple_form'
 gem 'sinatra'
