@@ -4,6 +4,6 @@ class JabberRegisterUserWorker
   def perform(user_id)
     user = User.find(user_id)
     JabberUser.new(user.username).register!
-    user.update_attributes(registered_on_jabber: true)
+    user.update_attributes(registered_on_jabber_at: DateTime.current)
   end
 end
